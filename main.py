@@ -176,7 +176,7 @@ if __name__ == '__main__':
             eml_list.append(files)
 
     sys.stdout = open('overView.txt', 'wt')
-    print("{:<70} {:<15} ".format('Emails', 'Results'));
+    print("{:<70} {:<15} ".format('Emails', 'Results'))
     print("===================================================================")
     for eml_file in eml_list:
         f = open(path + "/" + eml_file, 'r')
