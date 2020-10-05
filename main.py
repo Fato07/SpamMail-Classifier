@@ -153,7 +153,7 @@ def caption(origin):
 
 
 if __name__ == '__main__':
-    path = './ScamMails'
+    path = 'ScamMails'
     eml_list = []
     blackList_eml_addresses = ['"Euro-Millions.com" <verification@euro-millions.com>',
                                'Euromillions with Streamail <info@est.zebozut.com>',
