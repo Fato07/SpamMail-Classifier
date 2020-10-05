@@ -3,6 +3,9 @@ import os
 import sys
 
 
+# Thanks to stackoverflow
+# https://stackoverflow.com/questions/31392361/how-to-read-eml-file-in-python
+
 def construct_name(id, fn):
     """Constructs a file name out of messages ID and packed file name"""
     id = id.split(".")
@@ -151,10 +154,11 @@ def caption(origin):
     return From, To, Subject, Date
 
 
-
 if __name__ == '__main__':
     path = 'ScamMails'
     eml_list = []
+
+    # A BLack List of email addresses assumed to be known by scammers
     blackList_eml_addresses = ['"Euro-Millions.com" <verification@euro-millions.com>',
                                'Euromillions with Streamail <info@est.zebozut.com>',
                                'XE Money Transfer via Streamail <info@infor.sasonud.eu>',
@@ -173,13 +177,13 @@ if __name__ == '__main__':
 
     sys.stdout = open('overView.txt', 'wt')
     print("{:<70} {:<15} ".format('Emails', 'Results'));
+    print("===================================================================")
     for eml_file in eml_list:
         f = open(path + "/" + eml_file, 'r')
         s = extract(f, f.name)
         # print(s)
 
         if s["from"] in blackList_eml_addresses:
-            print(eml_file + ": " + "It is a spam")
+            print(eml_file + "                         " + "It is a spam")
         else:
-            print(eml_file + ": " + "It is not a spam")
-
+            print(eml_file + "                         " + "It is not a spam")
