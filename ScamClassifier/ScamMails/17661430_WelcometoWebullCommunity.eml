@@ -1,0 +1,201 @@
+From bounce+9e5670.fbca37-stephen=wootap.me@mail.webull.com Mon Sep 28 17:24:00 2020
+Received: from so254-52.mailgun.net ([198.61.254.52]:40109)
+	by server.tempmailgen.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.93)
+	(envelope-from <bounce+9e5670.fbca37-stephen=wootap.me@mail.webull.com>)
+	id 1kMwsa-000Dmm-Pk
+	for stephen@wootap.me; Mon, 28 Sep 2020 17:24:00 +0000
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mail.webull.com; q=dns/txt;
+ s=krs; t=1601313820; h=Content-Transfer-Encoding: Mime-Version:
+ Content-Type: Subject: From: To: Message-Id: Sender: Date;
+ bh=/d0ntYAu+nTwrJcfeCZ6R+4etWS9AIE4iLM1VbpTyCU=; b=of14z6Cs4o37RGO0rgOO/R8csXKEtlOCnK3i/IxrNGO8Uz7UkumCvvy22NGOt3j7FZOqOkJU
+ +mvK9lmpXfSZAQnQmimVwmjVmVZ0zEIreRcazEB4A2l4qXIbV5sXWVRi/A6R8Tug4nQlSlh6
+ 4vnJmOI/J8vzYNRmqja+ZQkQ2nc=
+X-Mailgun-Sending-Ip: 198.61.254.52
+X-Mailgun-Sid: WyI3ZTE5MSIsICJzdGVwaGVuQHdvb3RhcC5tZSIsICJmYmNhMzciXQ==
+Received: by luna.mailgun.net with HTTP; Mon, 28 Sep 2020 17:23:19 +0000
+Date: Mon, 28 Sep 2020 17:23:19 +0000
+Sender: noreply@mail.webull.com
+Message-Id: <20200928172319.1.297DDB9AB9E01B0E@mail.webull.com>
+To: stephen@wootap.me
+From: Webull <noreply@mail.webull.com>
+Subject: Welcome to Webull Community
+Content-Type: text/html; charset="utf-8"
+Mime-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+
+<head>
+        <meta charset=3D"UTF-8">
+</head>
+<div style=3D"background-color: #F4F4F6;padding:20px;">
+        <table border=3D"0" cellspacing=3D"0"
+                style=3D"max-width: 750px;margin:0 auto;background-color: #=
+FFFFFF; margin:0 auto;font-size: 16px;font-family: 'OpenSans','PingFangSC',=
+ 'Microsoft YaHei', Arial, 'Helvetica Light', Helvetica, sans-serif, tahoma=
+">
+                <tbody>=20
+                        <tr>                 <td style=3D"background: #FFFF=
+FF;padding: 20px 8%;"> <img                         src=3D"https://pic.webu=
+ll.com/mail_tpl/v3/logo-en-dark.png" height=3D"18px" /> </td>             <=
+/tr>
+                        <tr>
+    <td style=3D"background: #FFFFFF;height: 33%;"> <img src=3D"https://pic=
+=2Ewebull.com/mail_tpl/201910/tpl.png"
+            style=3D"display:block;margin: 0;padding: 0;" width=3D"100%" />=
+ </td>
+</tr>=20
+                        <tr>
+                                <td style=3D"padding: 20px 8% 40px;font-siz=
+e: 14px;color: #000;"><p style=3D"margin-left: 0px;">Dear Client,<br></p><p=
+ style=3D"margin-left: 0px;"><b>Don't miss the chance to get your free stoc=
+k!</b></p><p style=3D"margin-left: 0px;"><span style=3D"color: rgb(0, 0, 0)=
+;">Open a Webull brokerage account </span><span style=3D"color: rgb(0, 0, 0=
+);">and make your initial deposit of $100 or more, </span><span style=3D"co=
+lor: rgb(0, 0, 0);">and </span><span style=3D"color: rgb(0, 0, 0);">you wil=
+l receive a </span><span style=3D"color: rgb(0, 0, 0);">FREE</span><span st=
+yle=3D"color: rgb(0, 0, 0);">&nbsp;stock valued between $8-$1600!</span><br=
+></p><p style=3D"margin-left: 0px;"></p><p style=3D"margin-left: 0px;"><img=
+ alt=3D"Push_500.png" src=3D"https://pub.webull.com/us/office/a31575936d174=
+148ae414259116cdba0.png" width=3D"500" height=3D"198"><br></p><p style=3D"m=
+argin-left: 0px;"><a href=3D"https://act.webull.com/free-stocks/us/deposit-=
+3.html" target=3D"_blank">Learn More&gt;&gt;</a></p><p><b></b></p><p style=
+=3D"margin-left: 0px;"><br></p><p style=3D"margin-left: 0px;">Thank you for=
+ joining Webull! Did you know Webull has its own Community tab? Head over t=
+o our Community to check out what hot stocks and related topics our users a=
+re talking about! Share your views about the market, a particular stock, or=
+ anything else investment related!&nbsp; &nbsp;<br></p><p style=3D"margin-l=
+eft: 0px;"><span style=3D"color: rgb(51, 51, 51);">You can also explore top=
+ 10 lists of options and discuss the strategies with other traders in the W=
+ebull community.</span><br></p><p style=3D"margin-left: 0px;"><img alt=3D"P=
+ush Android.png" src=3D"https://pub.webull.com/us/office/5d205f50a1284e4dba=
+57225b32d431e5.png" width=3D"500" height=3D"198.38709677419354"><br></p><p =
+style=3D"margin-left: 0px;"><a href=3D"" target=3D"_blank"></a><a href=3D"h=
+ttps://act.webull.com/quotes/index.html" target=3D"_blank">Get the free quo=
+tes now!</a></p><p style=3D"margin-left: 0px;">To create a post:</p><p styl=
+e=3D"margin-left: 18pt;"><b>--&nbsp;</b>Tap on "Community" in the bottom ba=
+nner of the Webull app.</p><p style=3D"margin-left: 18pt;"><b>--&nbsp;</b>T=
+ap&nbsp;the pencil&nbsp;icon on&nbsp;the top&nbsp;right-hand corner&nbsp;to=
+ create a new post.</p><p style=3D"margin-left: 18pt;"><b>--&nbsp;</b>There=
+ are icons that allow you to make your post unique</p><p style=3D"margin-le=
+ft: 39pt;"><b>--&nbsp;</b>The "picture" icon allows you to add pictures and=
+ screenshots.</p><p style=3D"margin-left: 39pt;"><b>--&nbsp;</b>The "@" ico=
+n allows you to tag someone you follow in the community.</p><p style=3D"mar=
+gin-left: 39pt;"><b>--</b>&nbsp;The "$" icon allows you to add a particular=
+ stock</p><p style=3D"margin-left: 39pt;"><b>--</b>&nbsp;The "#" icon allow=
+s you to start a new topic</p><p style=3D"margin-left: 39pt;"><b>--&nbsp;</=
+b>The "chain" icon allows you to insert links, such as authoritative news w=
+ebsites.</p><p style=3D"margin-left: 39pt;"><b>--&nbsp;</b>The "stock going=
+ up" icon allows you to share your performance.</p><p style=3D"margin-left:=
+ 0px;">Tap&nbsp;the "Post"&nbsp;button in the top to finish the post, then =
+you can see your post in community steams.</p><p style=3D"margin-left: 0px;=
+">Sound off in the Community tab! Let your thoughts and ideas be heard!&nbs=
+p;Posts with High-quality content, a particular stock, topics and pictures,=
+ with no less than 10 words, will garner more attention and recommendation =
+from readers!</p><p style=3D"margin-left: 0px;">&nbsp;</p><p style=3D"margi=
+n-left: 0px;">Thank you,</p><p style=3D"margin-left: 0px;">The Webull Team<=
+/p></td>
+                        </tr>=20
+                        =20
+                        <tr style=3D"background: #000000"> <td style=3D"pad=
+ding: 25px 7.5% 20px 7%"> <table style=3D"width: 100% ; color: white"> <tr>=
+ <td style=3D"width:50%"> <table> <tr> <td style=3D"color: #cccccc; text-de=
+coration: none; font-size: 11px; line-height: 14px;"> <a style=3D"font-size=
+: 11px;color: #cccccc; text-decoration: none; display: inline-block;" href=
+=3D"https://www.webull.com/story" target=3D"_blank">Webull Story</a> </td> =
+</tr> <tr> <td style=3D" line-height: 14px;"> <a style=3D"font-size: 11px;c=
+olor: #cccccc; text-decoration: none; display: inline-block;" href=3D"https=
+://www.webull.com/activity" target=3D"_blank">Webull Promotions</a> </td> <=
+/tr> <tr> <td style=3D" line-height: 14px;"> <a style=3D"font-size: 11px;co=
+lor: #cccccc; text-decoration: none; display: inline-block;" href=3D"https:=
+//www.webull.com/introduce" target=3D"_blank">Webull Desktop</a> </td> </tr=
+> <tr> <td style=3D" line-height: 14px;"> <a style=3D"font-size: 11px;color=
+: #cccccc; text-decoration: none; display: inline-block;" href=3D"https://w=
+ww.webull.com/hc" target=3D"_blank">Help Center</a> </td> </tr> <tr> <td st=
+yle=3D" line-height: 14px;"> <a style=3D"font-size: 11px;color: #cccccc; te=
+xt-decoration: none; display: inline-block; text-align: left" href=3D"https=
+://www.webull.com/policy" target=3D"_blank">Disclosures</a> </td> </tr> </t=
+able> </td> <td> <table style=3D"width: 100% ; color: white"> <tr> <td> <a =
+href=3D"https://www.facebook.com/WeBullGlobal/" target=3D"_blank" style=3D"=
+border-radius: 100%;height: 30px; width: 30px; background-image: url(https:=
+//pic.webull.com/mail_tpl/v3/facebook.png); display: inline-block; backgrou=
+nd-size: 100% 100%"> </a> <a href=3D"https://twitter.com/WebullGlobal" targ=
+et=3D"_blank" style=3D"border-radius: 100%;height: 30px; width: 30px; backg=
+round-image: url(https://pic.webull.com/mail_tpl/v3/twitter.png); display: =
+inline-block; background-size: 100% 100%;"> </a><a href=3D"https://www.inst=
+agram.com/webullglobal" target=3D"_blank" style=3D"border-radius: 100%;heig=
+ht: 30px; width: 30px; background-image: url(https://pic.webull.com/mail_tp=
+l/v3/ig.png); display: inline-block; background-size: 100% 100%;"><a href=
+=3D"https://www.reddit.com/r/Webull/" target=3D"_blank" style=3D"border-rad=
+ius: 100%;height: 30px; width: 30px; background-image: url(https://pic.webu=
+ll.com/mail_tpl/v3/reddit.png); display: inline-block; background-size: 100=
+% 100%;"> </a></td> </tr> <tr> <td style=3D"padding-top:7px;color: #cccccc;=
+ text-decoration: none; font-size: 11px; "> Contact Us </td> </tr> <tr> <td=
+ style=3D"line-height: 14px;font-size: 11px;"> <a style=3D"text-decoration:=
+ none; color: #cccccc; cursor:pointer;" href=3D"mailto:cs@webull.com" targe=
+t=3D"_blank">cs@webull.com</a> </td> </tr>  </table> </td> </tr> </table> <=
+/td> </tr> <tr style=3D"font-size: 12px; color: #717273; line-height: 19px;=
+"> <td style=3D"padding: 30px 8% 40px 8%;"> Webull Financial LLC is registe=
+red with and regulated by the Securities and Exchange Commission (SEC) and =
+the Financial Industry Regulatory Authority (FINRA). It is also a member of=
+ the SIPC, which protects (up to $500,000, which includes a $250,000 limit =
+for cash) against the loss of cash and securities held by a customer at a f=
+inancially-troubled SIPC-member brokerage firm. Explanatory brochure availa=
+ble upon request or at <a href=3D"https://www.sipc.org" style=3D"text-decor=
+ation: none; color:#007CFF; cursor:pointer;" rel=3D"nofollow">www.sipc.org<=
+/a>.<br /><br /> Risk Disclosure: All investments involve risk and the past=
+ performance of a security, or financial product does not guarantee future =
+results or returns. Keep in mind that while diversification may help spread=
+ risk it does not assure a profit, or protect against loss, in a down marke=
+t. There is always the potential of losing money when you invest in securit=
+ies, or other financial products. Investors should consider their investmen=
+t objectives and risks carefully before investing.<br /><br /> Our clearing=
+ firm Apex Clearing Corp has purchased an additional insurance policy. The =
+coverage limits provide protection for securities and cash up to an aggrega=
+te of $150 million, subject to maximum limits of $37.5 million for any one =
+customer=E2=80=99s securities and $900,000 for any one customer=E2=80=99s c=
+ash. Similar to SIPC protection, this additional insurance does not protect=
+ against a loss in the market value of securities.<br /><br /> Free trading=
+ of stocks, ETFs and options refers to $0 commissions for Webull Financial =
+LLC self-directed individual cash or margin brokerage accounts and IRAs tha=
+t trade U.S. listed securities via mobile devices or Web. Relevant regulato=
+ry and exchange fees may apply. Please refer to our <a href=3D"https://www.=
+webull.com/pricing" style=3D"text-decoration: none; color:#007CFF; cursor:p=
+ointer;" rel=3D"nofollow">Fee Schedule</a> for more details.<br /><br /> Ma=
+rket data, development and operations of Webull mobile device applications,=
+ Webull websites and other products and services are provided by Webull Lim=
+ited. Webull Financial LLC and Webull Limited are separate entities under c=
+ommon ownership. <br /><br /> All data (including but not limited to market=
+ data, fundamental company data, news and other ) on Webull products are so=
+lely for informational purposes, not for trading purposes or advice. The ma=
+rket data and news information are provided by third party service provider=
+s, Webull Limited has not involved in preparation, adoption or editing of t=
+hird party content and does not explicitly or implicitly endorse or approve=
+ such content. The third party content providers do not explicitly or impli=
+citly endorse or approve the third party content, nor do they give investme=
+nt advice, or advocate the purchase or sale of any security or investment. =
+Webull Limited and third party data service providers do not guarantee the =
+accuracy and reliability. Webull Limited shall not bear any legal liability=
+ to the user for any loss or damages arising from information delay, error =
+or omission of such market data. Please refer to <a href=3D"https://www.web=
+ull.com/hc/categories/fq363" style=3D"text-decoration: none; color:#007CFF;=
+ cursor:pointer;" rel=3D"nofollow">Webull Data Disclaimer</a> for more deta=
+ils.<br /> </td> </tr>=20
+                        <tr>
+                <td style=3D"padding: 0px 8%;font-size: 12px;text-decoratio=
+n: none; color:#717273; ">
+                    If you don't want to receive these emails in the future=
+, please <a href=3D"https://activity.webull.com/email/unsubscribe.html?emai=
+l=3Dstephen@wootap.me&sign=3D9ceeed48039ce4c9532131c898e646b4af17644773714a=
+6cc2a4363caf0f060c&language=3Den&type=3D3">unsubscribe</a></td>
+            </tr>
+                </tbody>
+        </table>
+</div>
+
+</html><img width=3D"1px" height=3D"1px" alt=3D"" src=3D"http://email.mail.=
+webull.com/o/eJwNy0EOgyAQAMDXlCNZFhH2wKFEH7KwNJpAMdbG77dzH4mvXNh6tUcEBCAMxq=
+M1pI1G8suS6JloBZNgfUzQeW_6rvnbmi6jqy3KhC4gs8yC3mcqkkGcq9nP1gTO6oyfqx5bff_7P=
+cbFh-71B4_NIqc">
+

@@ -1,0 +1,245 @@
+Delivered-To: fathindos.fd@gmail.com
+Received: by 2002:a1c:f617:0:0:0:0:0 with SMTP id w23csp1615871wmc;
+        Sun, 13 Sep 2020 03:38:16 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJxsZ5cilso++ZSjcBT/tAjjH6BrKfnEBJ+ZIV+FxYVD+uIjl5qn/NcIUeGZWOg6hzcnjkLg
+X-Received: by 2002:a0c:d689:: with SMTP id k9mr9065143qvi.58.1599993496515;
+        Sun, 13 Sep 2020 03:38:16 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1599993496; cv=none;
+        d=google.com; s=arc-20160816;
+        b=tJzuLQ4fVIh+oIjGE5W+Rdl+TtBknQCgB2DIbm1NtXmledDQxY7r0eaDxfa/XnLFb2
+         7O7qiVqK+fQHfxqlC44G7q7nzTIbksTZ8V34sv+XH0oqBvqV59BbHAA+UvmwTeV6W+s0
+         /N7YpmGgvv+OzRtqAmybVBIiOUqpwgG3StClc+SdKASZxV/+/dllFg5ux+X4tEJ12Tt6
+         Jz2sCkTpKFzt09tmEnHwlcoNWc2HLbB44ZvGy40XC5TaVN0Nb0zDQCZLGALNvZLRa4AL
+         yyU4RAg6WdkVYVklV/ZLjG/UpBFkxrCCRmSdusM0HmTAn9g3G5I+VtxvcUcKxHLT/QPH
+         GvWw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:content-transfer-encoding:subject:to:from:message-id
+         :errors-to:date:dkim-signature;
+        bh=wmeJLMPbYq2h0bvduoUufa9iJ8KOmYQWG0Ut5GRr+Ts=;
+        b=rqvHuLUcwzyZLlyroARu6CuEHZOMDNXoPR0bqKettOP+U9reUCpgajGN/wFOCYet5d
+         tenwAuZe6fDMXHvmIhxNESVvT6vLX7eNPeHessEvTe8gD/GbbmisRuRDG/r3Wl1kShej
+         aIoFkX2lIIoiE9zgjcyjv6ELOJuoAuwoZNjce6pPGdbgJSiBaGkGl3/OptryslVevxQJ
+         szMaw3F+WJJvecRlrCvOkCht6U2+pemcQQNhzx9iyfhvY9yN1Rr51qw5aj7wwq2y7104
+         gZf4ImosD/JDNqL4q/FF0u++KyDCwhEdGV3u8C0cYfJ3EJTfAnUV+GEaZW/QzvpplsfC
+         6qEQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@vcouzwmu.ga header.s=default header.b=DgkEQx4W;
+       spf=temperror (google.com: error in processing during lookup of return.ydn3gtnwitnz0ymyidn00inwito2gdoxyzm@vcouzwmu.ga: DNS error) smtp.mailfrom=return.YDN3gTNwITNz0yMyIDN00iNwITO2gDOxYzM@vcouzwmu.ga
+Return-Path: <return.YDN3gTNwITNz0yMyIDN00iNwITO2gDOxYzM@vcouzwmu.ga>
+Received: from 7CDB003CC38F41C5B9EFD2D89DC358FB.com (2602fed2730005488591c42f00000001.vcouzwmu.ga. [2602:fed2:7300:548:8591:c42f:0:1])
+        by mx.google.com with ESMTPS id f14si4964667qtx.172.2020.09.13.03.38.15
+        for <fathindos.fd@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 13 Sep 2020 03:38:16 -0700 (PDT)
+Received-SPF: temperror (google.com: error in processing during lookup of return.ydn3gtnwitnz0ymyidn00inwito2gdoxyzm@vcouzwmu.ga: DNS error) client-ip=2602:fed2:7300:548:8591:c42f:0:1;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@vcouzwmu.ga header.s=default header.b=DgkEQx4W;
+       spf=temperror (google.com: error in processing during lookup of return.ydn3gtnwitnz0ymyidn00inwito2gdoxyzm@vcouzwmu.ga: DNS error) smtp.mailfrom=return.YDN3gTNwITNz0yMyIDN00iNwITO2gDOxYzM@vcouzwmu.ga
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=vcouzwmu.ga;
+ q=dns/txt; s=default; bh=wmeJLMPbYq2h0bvduoUufa9iJ8KOmYQWG0Ut5GRr+Ts=;
+ h=from:subject:to:mime-version:content-type:content-transfer-encoding;
+ b=DgkEQx4WiA4wIHE1u63yT++fltvEWX4/QTPTnAfFOdsst7M3pLGbHQrMUnqbH0ReTsWR3q1Ku5Eq
+ ZdVmid7lXm0OdF3obA1n1zyGq6hp+b7OU3NJDeAy8CUDaI/JTHjdbQFfBNhvDUEvRYszhluNHZdY
+ PiGe+p/XjJcPH3GJYBE=
+Date: Sun, 13 Sep 2020 10:10:39 GMT
+Return-Path: return.YDN3gTNwITNz0yMyIDN00iNwITO2gDOxYzM@3ab61jnp01oogr.r8591-c42f.vcouzwmu.ga
+Errors-To: return.YDN3gTNwITNz0yMyIDN00iNwITO2gDOxYzM@3ab61jnp01oogr.r8591-c42f.vcouzwmu.ga
+Message-Id: <cb422d40f4cc67bc04c0a297c51bfb@vcouzwmu.ga>
+From: "WarbyParker Promo" <wrbp44223@3ab61jnp01oogr.w8591-c42f.vcouzwmu.ga>
+To: fathindos.fd@gmail.com
+Subject: Stay in the comfort of your own home, and still find the perfect
+ pair
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+  <link href=3D=22http://fonts.googleapis.com/css=3Ffamily=3DOpen+Sans:400,=
+300,600,700=22 rel=3D=22stylesheet=22 type=3D=22text/css=22 />
+  <meta content=3D=22text/html; charset=3Dutf-8=22 http-equiv=3D=22Content-=
+Type=22 />
+  <meta content=3D=22initial-scale=3D1.0=22 name=3D=22viewport=22 />
+  <style type=3D=22text/css=22>* {
+    -webkit-text-size-adjust: none;
+  }
+    .ExternalClass * {
+      line-height: 120% !important}
+  </style>
+  <div id=3D=22happygarret=22>    <div class=3D=22Moonlightexcellence=22 =
+id=3D=22worldsongs=22 style=3D=22/* display:block; */display:none;font-size=
+:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden=
+;mso-hide:all;=22>Loo<span>king for new glas</span>ses , Answer a few quick=
+ questions and we&#39;ll suggest some great-loo<span>king fr</span>ames for=
+ you to try at home for free.
+    </div><center>
+    <table align=3D=22center=22 border=3D=220=22 cellpadding=3D=220=22 =
+cellspacing=3D=220=22 id=3D=22wrapper=22 style=3D=22margin: 0pt; padding: =
+0pt;=22 width=3D=22100%=22>
+      <tbody>
+        <tr valign=3D=22top=22>
+          <td align=3D=22center=22>
+            <table style=3D=22width:100%=22>
+              <tbody>
+                <tr>
+                  <td width=3D=22100%=22>
+<div class=3D=22jokesMutual=22 id=3D=22charmedMotionless=22 =
+style=3D=22margin-bottom:30px;=22><a href=3D=22http://3ab61jnp01oogr.=
+w8591-c42f.vcouzwmu.ga/cB1cAAPDBAABAqvwU2M0M1g/view=22 =
+style=3D=22text-decoration: none;=22><img alt=3D=22Display images=22 =
+border=3D=220=22 src=3D=22http://3ab61jnp01oogr.w8591-c42f.vcouzwmu.=
+ga/cB1cAAPDBAABAqvwU2M0M1g/t.gif=22 style=3D=22text-decoration: =
+none;height:1px;width: 1px;padding:0;line-height: 18px;text-indent: =
+10px;font-size: 16px;letter-spacing: .4px;font-family:Roboto,RobotoDraft,=
+Helvetica,Arial,sans-serif;white-space: nowrap;=22 /></a>
+</div>
+
+
+<div style=3D=22margin:0 auto;background-color:#f0eff4;font-family: 'Times =
+New Roman', Times, serif;text-align: center;padding-top:45px;width:650px;=
+=22>
+  <a href=3D=22http://3ab61jnp01oogr.w8591-c42f.vcouzwmu.=
+ga/cB1cAAPDBAABAqvwU2M0M1g/wrbp=22 style=3D=22color:#474a51;font-size:24px;=
+line-height:24px;text-decoration:none;letter-spacing:2px;=22><span>WARB</sp=
+an>Y <span>PARK</span>ER</a>
+                    <p style=3D=22color:#3d4955 ;font-size:36px;line-height=
+:32px;font-weight:bold;margin:30px 0 8px 0;padding:0px;letter-spacing:1px;=
+=22>Take this quiz to find
+                    </p>
+                    <p style=3D=22color:#3d4955 ;font-size:36px;line-height=
+:32px;font-weight:bold;margin:0;padding:0px;letter-spacing:1px;=22>your =
+per<span>fect fr</span>ames
+                    </p>
+                    <p style=3D=22color:#474a51;font-size:16px;line-height:=
+16px;padding:30px 0 10px 0;margin:0;=22>Loo<span>king for new =
+glas</span>ses, Answer a few quick questions and we&#39;ll
+                    </p>
+  <p style=3D=22color:#474a51;font-size:16px;line-height:16px;padding:0;mar=
+gin:0;=22>suggest some great-loo<span>king fr</span>ames for you to try at =
+home for free.
+                    </p> <a href=3D=22http://3ab61jnp01oogr.w8591-c42f.=
+vcouzwmu.ga/cB1cAAPDBAABAqvwU2M0M1g/wrbp=22 style=3D=22font-family: =
+Helvetica, Arial, Sans-Serif; color: #ffffff; background-color: #02a1e2; =
+text-decoration:none; display:inline-block; font-size: 20px; =
+line-height:20px;padding:15px 80px; margin:34px 0;=22>Quiz me!</a>
+=20=20
+           <a href=3D=22http://3ab61jnp01oogr.w8591-c42f.vcouzwmu.=
+ga/cB1cAAPDBAABAqvwU2M0M1g/wrbp=22><img alt=3D=22=22 =
+src=3D=22http://3ab61jnp01oogr.w8591-c42f.vcouzwmu.ga/img-cB1cAAPDBAABAqvwU=
+2M0M1g/gpsmain.jpg=22 width=3D=22650=22 height=3D=22430=22 =
+style=3D=22display:block;=22 /></a>
+=20=20
+              </div>
+
+              <div style=3D=22width:600px;margin:0 auto;text-align:center;=
+=22>
+
+   <p style=3D=22color: black; font-family: Calibri; font-size: =
+13px;=22><span>=F0=9D=98=9B<span>=F0=9D=98=A9=F0=9D=98=AA=F0=9D=98=B4 =
+=F0=9D=98=AA=F0=9D=98=B4</span> =F0=9D=98=A2=F0=9D=98=AF =
+=F0=9D=98=A2=F0=9D=98=A5=F0=9D=98=B7<span>=F0=9D=98=A6=F0=9D=98=B3=
+=F0=9D=98=B5=F0=9D=98=AA=F0=9D=98=B4=F0=9D=98=A6=F0=9D=98=AE=F0=9D=98=A6=
+=F0=9D=98=AF=F0=9D=98=B5</span>.</span>
+                      <br /><span>=F0=9D=98=9B=F0=9D=98=A9<span>=
+=F0=9D=98=AA=F0=9D=98=B4 =F0=9D=98=A6=F0=9D=98=AE=F0=9D=98=A2=F0=9D=98=AA=
+=F0=9D=98=AD =F0=9D=98=B8=F0=9D=98=A2=F0=9D=98=B4 =F0=9D=98=B4=
+=F0=9D=98=A6=F0=9D=98=AF=F0=9D=98=B5 =F0=9D=98=B0=F0=9D=98=AF =
+=F0=9D=98=A3=F0=9D=98=A6</span>=F0=9D=98=A9=F0=9D=98=A2=F0=9D=98=AD=
+=F0=9D=98=A7 =F0=9D=98=B0=F0=9D=98=A7 =F0=9D=98=9E=F0=9D=98=A2=F0=9D=98=B3<=
+span>=F0=9D=98=A3=F0=9D=98=BA =F0=9D=98=97=F0=9D=98=A2=F0=9D=98=B3=
+=F0=9D=98=AC</span>=F0=9D=98=A6=F0=9D=98=B3.</span>
+                      <br /><span>=F0=9D=98=9B=F0=9D=98=B0 =
+=F0=9D=98=B6=F0=9D=98=AF=F0=9D=98=B4=F0=9D=98=B6=F0=9D=98=A3=F0=9D=98=B4=
+=F0=9D=98=A4=F0=9D=98=B3=F0=9D=98=AA=F0=9D=98=A3=F0=9D=98=A6,&nbsp;</span> =
+<a href=3D=22http://3ab61jnp01oogr.w8591-c42f.vcouzwmu.=
+ga/cB1cAAPDBAABAqvwU2M0M1g/unsub=22 style=3D=22=22>=F0=9D=98=A4=
+=F0=9D=98=AD=F0=9D=98=AA=F0=9D=98=A4=F0=9D=98=AC =F0=9D=98=A9=F0=9D=98=A6=
+=F0=9D=98=B3=F0=9D=98=A6</a><span>, =F0=9D=98=B0=F0=9D=98=B3 =
+=F0=9D=98=B8=F0=9D=98=B3=F0=9D=98=AA=F0=9D=98=B5=F0=9D=98=A6 =
+=F0=9D=98=B5=F0=9D=98=B0:</span>
+                      <br /><span>233 =F0=9D=98=9A=F0=9D=98=B1=
+=F0=9D=98=B3=F0=9D=98=AA=F0=9D=98=AF=F0=9D=98=A8 =F0=9D=98=9A=F0=9D=98=B5=
+=F0=9D=98=B3=F0=9D=98=A6=F0=9D=98=A6=F0=9D=98=B5, 6=F0=9D=98=B5=F0=9D=98=A9=
+ =F0=9D=98=8D=F0=9D=98=AD=F0=9D=98=B0=F0=9D=98=B0=F0=9D=98=B3 =
+=F0=9D=98=8C=F0=9D=98=A2=F0=9D=98=B4=F0=9D=98=B5, =F0=9D=98=95=
+=F0=9D=98=A6=F0=9D=98=B8 =F0=9D=98=A0=F0=9D=98=B0=F0=9D=98=B3=F0=9D=98=AC, =
+=F0=9D=98=95=F0=9D=98=A0 10013.</span> <img height=3D=221=22 =
+src=3D=22http://3ab61jnp01oogr.w8591-c42f.vcouzwmu.ga/cB1cAAPDBAABAqvwU2M0M=
+1g/t.gif=22 style=3D=22width:1px;height:1px;=22 width=3D=221=22 />
+                    </p>
+  <div height=3D=22376=22 style=3D=22width: 620px; height:376px; =
+max-height: 376px; max-width: 620px; background-image: none;  =
+background-color: none; border: none;=22 width=3D=22620=22>
+    <table border=3D=220=22 cellpadding=3D=220=22 cellspacing=3D=220=22 =
+style=3D=22width: 620px;=22 width=3D=22620=22>
+      <tbody>
+        <tr>
+          <td style=3D=22width: 48%;=22>&nbsp;
+          </td>
+          <td>
+            <table border=3D=220=22 cellpadding=3D=220=22 =
+cellspacing=3D=220=22>
+              <tbody>
+                <tr>
+                  <td style=3D=22padding-top:10px;=22>&nbsp;
+                  </td>
+                  <td style=3D=22font-size:20px; line-height: 20px; =
+font-weight:bold; padding: 15px;=22>&nbsp;
+                  </td>
+                </tr>
+                <tr>
+                  <td style=3D=22padding-top:10px;=22>&nbsp;
+                  </td>
+                  <td style=3D=22font-size:20px; line-height: 20px; =
+font-weight:bold; padding: 15px;=22>&nbsp;
+                  </td>
+                </tr>
+                <tr>
+                  <td style=3D=22padding-top:10px;=22>&nbsp;
+                  </td>
+                  <td style=3D=22font-size:20px; line-height: 20px; =
+font-weight:bold; padding: 15px;=22>&nbsp;
+                  </td>
+                </tr>
+                <tr>
+                  <td style=3D=22padding-top:10px;=22>&nbsp;
+                  </td>
+                  <td style=3D=22font-size:20px; line-height: 20px; =
+font-weight:bold; padding: 15px;=22>&nbsp;
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan=3D=222=22 style=3D=22padding-top:10px;=22>&nb=
+sp;
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style=3D=22min-height:180px;height:60px;margin-bottom:60px;=22>&nbsp=
+;
+  </div>
+  <p class=3D=22remainhappen=22><a href=3D=22http://3ab61jnp01oogr.=
+w8591-c42f.vcouzwmu.ga/cB1cAAPDBAABAqvwU2M0M1g/pref=22><img alt=3D=22=22 =
+src=3D=22http://3ab61jnp01oogr.w8591-c42f.vcouzwmu.ga/img-cB1cAAPDBAABAqvwU=
+2M0M1g/rmvaddr.gif=22 width=3D=22314=22 height=3D=2226=22 /></a>
+  </p>
+</div>
+                      </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table></center>
+  </div>
+</html>

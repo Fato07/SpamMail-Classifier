@@ -1,0 +1,374 @@
+Delivered-To: fatdos.fd@gmail.com
+Received: by 2002:a7b:c341:0:0:0:0:0 with SMTP id l1csp2585621wmj;
+        Sun, 27 Sep 2020 06:30:45 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJy4LUTQGdgS0mUweawwe41P23WI8QaAeW6dRyMJbd4ecsJzplFphTLxSS5CBPdHz+Ok2kbS
+X-Received: by 2002:a05:6402:1d93:: with SMTP id dk19mr11085492edb.198.1601213445784;
+        Sun, 27 Sep 2020 06:30:45 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1601213445; cv=none;
+        d=google.com; s=arc-20160816;
+        b=AQG1bpd4XzhZKrEKHTg6Nut2ckcWUt0cJb/8D3AnZ9M5JVKAfnoXPNP/giEaJvS/gA
+         lqPShKZTNPt4iO5uWHqz3yP9ohbgp3zcKhVFVP46NaNkkWVHXwUUJt3/TYL7+LnozbGR
+         0rdMU3CpmuEV7rxbE/sYfpfW7hmfpNf5Ra02eXVWQYEQ6z8bpRm179oDjijBe0L9LP7G
+         WCLmk/uyAuQUFOsxiAoP4RoR9GxsOGWM9S25h/XP4r54S149D+2mlhAgKqSWcfYJOEnm
+         xaCMmsLYScXe4QtB6B0rM767f2zB/rWHL5rcsg+/6eJTEse1fjgywnulAmZDPRU8qyUB
+         TT0w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:precedence:feedback-id:reply-to:list-unsubscribe-post
+         :list-unsubscribe:message-id:date:to:from:subject:dkim-signature;
+        bh=ePf25aiBXjKgEco3G981SPuMoFCEN03Zh/N0V04RjOQ=;
+        b=Ogqs128j7zNq8J3xmUqQJwqtyaAd78N8lFnTeObgS310PMvHmYm2DAVguHl55DLitT
+         QmJO6jL/eHNY4sTTQRX2/BHqlZ5JEA/nXys20zGJy3zDwgRdWo8idDDK2FljdMwVNaIy
+         fWudiziKkKpn1Q8LKH4k31TpITaR1coBPUEYChXm2Eobyx2weWIjBdIteeC0ZW3R59ps
+         dwJAWx7ERJEz2OR1CNKa+u1WpDjSskT5lLkqJ4y2MMzMlrOpyqV5Ti3EAyOwgrpnfPx4
+         YyXSUdshYy/ygaf5i2GbHomvPOBUg91NxeNiehsh0LoRfPQLau3U1yg5Qo36SHkDoRJm
+         PQhw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@info.iflirts.com header.s=ga header.b=GmlBRYTc;
+       spf=pass (google.com: domain of bounce-b5u82ao@info.iflirts.com designates 185.154.225.222 as permitted sender) smtp.mailfrom=bounce-b5u82ao@info.iflirts.com;
+       dmarc=pass (p=QUARANTINE sp=NONE dis=NONE) header.from=info.iflirts.com
+Return-Path: <bounce-b5u82ao@info.iflirts.com>
+Received: from amadopolis.ga.cq-mail.net (amadopolis.ga.cq-mail.net. [185.154.225.222])
+        by mx.google.com with ESMTPS id y10si5759763eds.17.2020.09.27.06.30.45
+        for <fatdos.fd@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 27 Sep 2020 06:30:45 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-b5u82ao@info.iflirts.com designates 185.154.225.222 as permitted sender) client-ip=185.154.225.222;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@info.iflirts.com header.s=ga header.b=GmlBRYTc;
+       spf=pass (google.com: domain of bounce-b5u82ao@info.iflirts.com designates 185.154.225.222 as permitted sender) smtp.mailfrom=bounce-b5u82ao@info.iflirts.com;
+       dmarc=pass (p=QUARANTINE sp=NONE dis=NONE) header.from=info.iflirts.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=info.iflirts.com; s=ga; t=1601213445;
+ bh=a+U11zqYOx+TX+vFFo6y3Zlm1vw=;
+ h=X-Mailer-Info:Subject:From:To:Date:Message-ID:List-Unsubscribe:
+  List-Unsubscribe-Post:Reply-To:X-Report-Abuse-To:X-TransactionId:
+  Feedback-ID:X-CSA-Complaints:Precedence:MIME-Version:Content-Type;
+ b=GmlBRYTccVvbwAh/WMQtD0gtirDn0FxAZhKWGGy9C5jyaQjgrR5X/3wj6HoD03j/Q
+  vxG/0Cdt3tY56Bn8FRPgns4ED86/IqccGxNRnXVXqYPUavazsxw9TH1lJXhoIOuHE9
+  n0k4FNYWZdHKs0XT+xmcZfxdxOM0c+exXy8bVA/jDT5489BZ31hDIXaeEQuBORygot
+  6GhdXexR9hiYZYB2TxTWgqXIXKNWR9D02u7nKKnyFtb6E5HpjC3BcT/ug8GUlCzBmZ
+  ZXzD8r4f5OtfIDB+6RvUMYhOFvlGQg6gRYUA3gh4mPXDwUcvCELbwMg5IixGLzO5by
+  cotcVSsW0VfxQ==
+X-Mailer-Info: 3.MXdyZWblRWah9VbslGZ.kmZslmc0N3Xj9Wbf5GbyADM5IzN.gZhRHZvNnLmRGQn1WYpxmLj9Wb.IDM1IDO4kTN4IDN
+Subject: iFlirts - new message from Alysa7414!
+From: iFlirts <service@info.iflirts.com>
+To: fatdos.fd@gmail.com
+Date: 27 Sep 2020 13:30:45 -0000
+Message-ID: <mid-e76dea6692d51b53c6ca408bfa815069@info.iflirts.com>
+List-Unsubscribe: <mailto:unsubscribe-b5u82ao@info.iflirts.com>, <https://unsubscribe.iflirts.com/D1QcVFUEHR0DFRkFBh9JAxYhAhkMCAVCBAof>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Reply-To: reply-b5u82ao@info.iflirts.com
+X-Report-Abuse-To: abuse@info.iflirts.com
+X-TransactionId: 20528895824
+Feedback-ID: AppMessageNewMessageMail_2:iflirts.com
+X-CSA-Complaints: whitelist-complaints@eco.de
+Precedence: bulk
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==24767febb1af16617c4be4e8f531ffc2"
+
+This is a multi-part message in MIME format.
+
+--==24767febb1af16617c4be4e8f531ffc2
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello Fatdosk022a!
+You just received a new message!
+
+Alysa7414, (21)
+ https://www.iflirts.com/profile?user_id=3D3df56f9b-b2f5-b644-9314-f1048=
+589420c&code=3D0x1%3A3727a9183095437646eddad7e317aa3fbb128b79e3ba0911d47=
+dd155d8ad453d6d377a7822c308aa1a5aa31e9da9b8e2b8aec8a74e392ba74956f2b3fcb=
+0f4bd61649a690c873be44e9a12d786a542d3553dee59955d20b48b55ba013ceab1a4c3c=
+ac1636898b9edaaaf564bc9f7c660
+
+Reply quickly and send a gift for a starter!
+
+Chat now!
+https://www.iflirts.com?code=3D0x1%3A3727a9183095437646eddad7e317aa3fbb1=
+28b79e3ba0911d47dd155d8ad453d6d377a7822c308aa1a5aa31e9da9b8e2b8aec8a74e3=
+92ba74956f2b3fcb0f4bd61649a690c873be44e9a12d786a542d3553dee59955d20b48b5=
+5ba013ceab1a4c3cac1636898b9edaaaf564bc9f7c660
+
+Have fun!
+
+Your iFlirts-Team
+
+Don=C2=B4t want to receive this kind of mail? Disable it by clicking her=
+e:
+https://www.iflirts.com/email-unsubscribe?emailHash=3D125de90a571a2baa6b=
+908378755de8d5--
+
+Appspartner B.V.
+Looskade 20
+6041LE Roermond
+Netherlands
+
+E-Mail: support@iflirts.com
+CEO: Helen Anna Jacoba Vlot
+VAT ID: NL860956301.B.01
+KvK-Number: 77275624
+
+--==24767febb1af16617c4be4e8f531ffc2
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://w=
+ww.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUT=
+F-8" />
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width" />
+    <title>iFlirts</title>
+    <style type=3D"text/css">
+*{
+  text-decoration: none;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #333333;
+  max-width:100%;
+}
+
+.table-style {
+  font-family: Arial, Helvetica, sans-serif;
+  display:inline-block;
+  background: #d5366a;
+  padding: 0px 20px;
+  color:#FFF;
+  font-weight: normal;
+  text-shadow: rgba(0,0,0,0.3) 0 1px 1px;
+  border: 1px solid #d5366a;
+  border-radius: 8px;
+  box-shadow: inset #d5366a 0 1px 0;
+  appearance: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.2em;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  table{
+    max-width:100% !important;
+    text-align: center!important;
+  }
+  table[class=3D"mobil480full"] {
+    width:100% !important;
+    text-align: center;
+  }
+  table[class=3D"mobil480full"] img[class=3D"thumb"] {
+    max-width:100% !important;
+    width: 150px !important;
+    height: auto !important;
+  }
+  td[class=3D"mobil480hide"] {
+    display:none;
+  }
+  *[class=3D"mobil480hide"] {
+    display:none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  table[class=3D"mobil600full"] img[class=3D"teaser"] {
+    max-width:100% !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+</style>
+</head>
+<body style=3D"-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-=
+ms-interpolation-mode:bicubic;margin:0;padding:0;font-size: 13px">
+
+<center>
+    <table width=3D"600" style=3D"font-family: Arial, Helvetica, sans-se=
+rif; font-size: 1em;  color: #333333; text-align: left; margin:1em auto;=
+ width: 600px; " border=3D"0" cellpadding=3D"0" cellspacing=3D"0"  class=
+=3D"mobil480full">
+    <tbody>
+    <tr>
+        <td align=3D"right" style=3D"font-size: 1em; color:#d5366a;">
+            Your profile is very popular!<br>
+            Please add <a href=3D"mailto:service@info.iflirts.com" style=
+=3D"color:#c00000;">service@info.iflirts.com</a> as your contact.
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <table width=3D"600" style=3D"font-family: Arial, Helvetica, san=
+s-serif; font-size: 1em; background-color: #eeeeee; color: #333333; text=
+-align: left; margin: auto; width: 600px; " border=3D"0" cellpadding=3D"=
+20" cellspacing=3D"0" class=3D"mobil480full">
+        <tbody>
+        <tr>
+            <td style=3D"
+  border-top: 1px solid #E9E9E9;border-left: 1px solid #E9E9E9;border-ri=
+ght: 1px solid #E9E9E9;border-bottom: 1px solid #F6F6F6;
+  background: #F6F6F6;
+                ">
+                <table width=3D"300" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0" align=3D"left" style=3D"border-collapse:collapse;mso-table=
+-lspace:0pt;mso-table-rspace:0pt;color:#333333;font-family: Arial, Helve=
+tica, sans-serif; font-size: 1em;" class=3D"mobil480full">
+                    <tr>
+                        <td valign=3D"top" width=3D"300" ><a href=3D"htt=
+ps://www.iflirts.com/?code=3D0x1%3A3727a9183095437646eddad7e317aa3fbb128=
+b79e3ba0911d47dd155d8ad453d6d377a7822c308aa1a5aa31e9da9b8e2b8aec8a74e392=
+ba74956f2b3fcb0f4bd61649a690c873be44e9a12d786a542d3553dee59955d20b48b55b=
+a013ceab1a4c3cac1636898b9edaaaf564bc9f7c660&trk=3D9fidhe8" title=3D"iFli=
+rts" style=3D"color:#FFF; font-weight:bold;"><img src=3D"https://cimage.=
+iflirts.com/email/9_logo.png" alt=3D"iFlirts" width=3D"112" height=3D"40=
+" border=3D"0" style=3D"height: 40px; width: auto; border:none;"></a></t=
+d>
+                    </tr>
+                </table>
+                <table width=3D"250" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0" align=3D"left" style=3D"border-collapse:collapse;mso-table=
+-lspace:0pt;mso-table-rspace:0pt;color:#333333;font-family: Arial, Helve=
+tica, sans-serif; font-size: 1em;" class=3D"mobil480hide">
+                    <tr>
+                        <td class=3D"mobil480hide" align=3D"right"  >
+                            <table class=3D"btn table-style"><tbody><tr>=
+<td><a href=3D"https://www.iflirts.com/chatlist?code=3D0x1%3A3727a918309=
+5437646eddad7e317aa3fbb128b79e3ba0911d47dd155d8ad453d6d377a7822c308aa1a5=
+aa31e9da9b8e2b8aec8a74e392ba74956f2b3fcb0f4bd61649a690c873be44e9a12d786a=
+542d3553dee59955d20b48b55ba013ceab1a4c3cac1636898b9edaaaf564bc9f7c660&tr=
+k=3D9fidhe8" title=3D"Click here!" style=3D"color:#FFF; text-decoration:=
+ none;">Show my messages</a></td></tr></tbody></table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style=3D"border-top: 1px solid #FFF; border-bottom: 1px =
+solid #FFFFFF; border-left: 1px solid #E9E9E9; border-right: 1px solid #=
+E9E9E9; background: #EFEFEF; word-wrap:break-word; width: 100%;">
+                <h1 style=3D"font-size: 1.5em; font-weight: normal;">Hel=
+lo Fatdosk022a,</h1>
+                <p>You've just received a new message! <a href=3D"https:=
+//www.iflirts.com/chat?user_id=3D3df56f9b-b2f5-b644-9314-f1048589420c&co=
+de=3D0x1%3A3727a9183095437646eddad7e317aa3fbb128b79e3ba0911d47dd155d8ad4=
+53d6d377a7822c308aa1a5aa31e9da9b8e2b8aec8a74e392ba74956f2b3fcb0f4bd61649=
+a690c873be44e9a12d786a542d3553dee59955d20b48b55ba013ceab1a4c3cac1636898b=
+9edaaaf564bc9f7c660&trk=3D9fidhe8" style=3D"color: #d5366a;">Reply quick=
+ly!</a></p>
+                <p>Have fun! Your iFlirts-team</p>
+            </td>
+        </tr>
+        <tr>
+            <td style=3D"border-top: 1px solid #FFF; border-bottom: 1px =
+solid #FFFFFF; border-left: 1px solid #E9E9E9; border-right: 1px solid #=
+E9E9E9; background: #F6F6F6; word-wrap:break-word; width: 100%;">
+                <h1 style=3D"font-size: 1.2em; font-weight: normal; colo=
+r:#d5366a;">
+                    <a href=3D"https://www.iflirts.com/chat?user_id=3D3d=
+f56f9b-b2f5-b644-9314-f1048589420c&code=3D0x1%3A3727a9183095437646eddad7=
+e317aa3fbb128b79e3ba0911d47dd155d8ad453d6d377a7822c308aa1a5aa31e9da9b8e2=
+b8aec8a74e392ba74956f2b3fcb0f4bd61649a690c873be44e9a12d786a542d3553dee59=
+955d20b48b55ba013ceab1a4c3cac1636898b9edaaaf564bc9f7c660&trk=3D9fidhe8" =
+style=3D"color: #d5366a;">
+                        <img style=3D"vertical-align: bottom; border:0;"=
+  width=3D"24" height=3D"24" src=3D"https://cimage.iflirts.com/email/9_i=
+con_mail.png">
+                        You have new messages.
+                    </a>
+                </h1>
+                <table WIDTH=3D"100%" style=3D"font-family: Arial, Helve=
+tica, sans-serif; font-size: 1em; color: #FFFFFF;  border-collapse: coll=
+apse;" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <table style=3D"max-width: 600px;"><tr><td a=
+lign=3D"center"><a href=3D"https://www.iflirts.com/profile?user_id=3D3df=
+56f9b-b2f5-b644-9314-f1048589420c&code=3D0x1%3A3727a9183095437646eddad7e=
+317aa3fbb128b79e3ba0911d47dd155d8ad453d6d377a7822c308aa1a5aa31e9da9b8e2b=
+8aec8a74e392ba74956f2b3fcb0f4bd61649a690c873be44e9a12d786a542d3553dee599=
+55d20b48b55ba013ceab1a4c3cac1636898b9edaaaf564bc9f7c660"><img src=3D"htt=
+ps://cimage.iflirts-cdn.com/user_profile/9/200/99f26d4ba45b9a097bd1f9fe5=
+dbc8efc_hdpi.jpg" style=3D"max-width: 160px;"></a><br>Alysa7414 (21)</td=
+></tr></table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br><table class=3D"btn table-style"><tbody><tr><td><a h=
+ref=3D"https://www.iflirts.com/chatlist?code=3D0x1%3A3727a9183095437646e=
+ddad7e317aa3fbb128b79e3ba0911d47dd155d8ad453d6d377a7822c308aa1a5aa31e9da=
+9b8e2b8aec8a74e392ba74956f2b3fcb0f4bd61649a690c873be44e9a12d786a542d3553=
+dee59955d20b48b55ba013ceab1a4c3cac1636898b9edaaaf564bc9f7c660&trk=3D9fid=
+he8" title=3D"Click here!" style=3D"color:#FFF; text-decoration: none;">=
+show all messages</a></td></tr></tbody></table>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td style=3D"border-top: 1px solid #FFF; border-bottom: 1px =
+solid #FFFFFF; border-left: 1px solid #E9E9E9; border-right: 1px solid #=
+E9E9E9; background: #EFEFEF; word-wrap:break-word; width: 100%;">
+                <p>You receive these news because you registered yoursel=
+f at iFlirts.</p>
+                <p>If you don't want to receive any further e-mails rega=
+rding your customer account, then please follow the link to "Unsubscribe=
+".&nbsp;  </p>
+            </td>
+        </tr>
+        <tr>
+            <td style=3D"border-top: 1px solid #FBFBFB; text-align: cent=
+er;" align=3D"center">
+                <!-- Zweispaltiger footer -->
+                <table width=3D"320" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0" align=3D"left" style=3D"border-collapse:collapse;mso-table=
+-lspace:0pt;mso-table-rspace:0pt;color:#333333;font-family: Arial, Helve=
+tica, sans-serif; font-size: 1em;" class=3D"mobil480full">
+                    <tr>
+                        <td  align=3D"left" valign=3D"top" width=3D"300"=
+ >
+                            For further information:<br>
+                            <a href=3D"mailto:support@iflirts.com" title=
+=3D"" style=3D"color:#d5366a;">E-Mail</a> | <a href=3D"https://www.iflir=
+ts.com/email-unsubscribe?emailHash=3D125de90a571a2baa6b908378755de8d5&tr=
+k=3D9fidhe8" title=3D"" style=3D"color:#d5366a;">Unsubscribe</a><br>
+                            <br>
+                            =C2=A9 2020 iFlirts is an offer from<br>
+Appspartner B.V.<br>
+Looskade 20<br>
+6041LE Roermond<br>
+Netherlands<br>
+<br>
+E-Mail: support@iflirts.com<br>
+CEO: Helen Anna Jacoba Vlot<br>
+VAT ID: NL860956301.B.01<br>
+KvK-Number: 77275624<br>
+                        </td>
+                    </tr>
+                </table>
+                <table width=3D"240" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0" align=3D"left" style=3D"border-collapse:collapse;mso-table=
+-lspace:0pt;mso-table-rspace:0pt;color:#333333;font-family: Arial, Helve=
+tica, sans-serif; font-size: 1em;" class=3D"mobil480full">
+                    <tr>
+                        <td  align=3D"left" valign=3D"top" width=3D"280"=
+ >
+                            This message has been sent to:<br>
+                            fatdos.fd@gmail.com<br>
+                            <br>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+        </table>
+        </td>
+    </tr>
+    </tbody>
+    </table>
+</center>
+<img src=3D"https://api.iflirts.com/tracking/getMailImage/image.gif?trk=3D=
+9fidhe8" width=3D"1" height=3D"1" alt=3D""></body>
+</html>
+
+--==24767febb1af16617c4be4e8f531ffc2--

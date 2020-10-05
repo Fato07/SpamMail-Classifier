@@ -1,0 +1,89 @@
+From verification@euro-millions.com Sun Sep 27 18:37:46 2020
+Received: from mail.lottery.ltd.uk ([195.224.137.134]:51288 helo=mail.takethat.co.uk)
+	by server.tempmailgen.com with esmtp (Exim 4.93)
+	(envelope-from <verification@euro-millions.com>)
+	id 1kMbYQ-000GJr-6J
+	for stephen@wootap.me; Sun, 27 Sep 2020 18:37:46 +0000
+From: "Euro-Millions.com" <verification@euro-millions.com>
+To: stephen@wootap.me
+Subject: You're one step away from becoming a member at Euro-Millions.com!
+Date: Sun, 27 Sep 2020 19:36:56 +0100
+Message-ID: <20200927-19365664-333c@NODE2>
+MIME-Version: 1.0
+Content-Type: text/html
+X-Exim-Id: 20200927-19365664-333c
+
+
+
+<html>
+<head>
+<title>Euro-Millions.com Verification Email</title>
+
+<style type="text/css">
+	*{margin:0;padding:0;box-sizing:border-box}
+	body{background:#fafafa;margin:0;padding:0;font:normal 14px Arial,sans-serif;color:#797979;width:100%}
+	.mainTatble{width:580px;padding:0;margin:20px auto 0;background:#fff}
+	table thead img{width:650px;height:102px;}
+	table tbody td{width:610px;padding:10px 40px;margin:0 auto}
+	.tableFooter{width:580px !important;background-color:#1c5a9d; margin:0 auto;}
+	.tableFooter p{width:100%;margin:16px auto;color:#fff;font-size:12px;text-align:center;}
+	h1{font:bold 36px/35px Arial,sans-serif;letter-spacing:-0.5px;color:#013c74;margin:25px 0 0 0}
+	.undertitle{font-size:24px;color:#333}
+	p{margin:15px 0;line-height:125%;}
+	a{text-decoration:none; color:#2768ab;}
+	a:hover{text-decoration:none;color:#444}
+	.signature{font-weight:bold;margin:10px 0 32px 0!important; color:#333;}
+	.bottom p{margin-bottom:0;}
+	.p-alt{color:#333;font-size:13px;font-weight:700;text-align:center;margin:25px 0;}
+	b{color:#333;}
+</style>
+
+</head>
+
+<body bgcolor="#2c9cdc">
+
+<table class="mainTatble" bgcolor="#ffffff" width="650" align="center" cellspacing="0" cellpadding="0" border="0">
+	<thead>
+		<tr>
+			<td class="tableHead">
+				<img src="https://www.euro-millions.com/images/template/email-header.jpg" alt="Euro-Millions.com" width="580" height="102">
+			</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				<h1>Hello </h1>
+			</td>
+		</tr>
+		
+					<tr>
+						<td>
+							<p class="undertitle">Thanks for signing up to Euro-Millions.com.</p>
+							<p>For access to the many features we offer, you just need to verify your account. You can do this by clicking the link below:</p>
+							<p><strong><a href="https://www.euro-millions.com/verify?uid=976799D5-2AAE-4119-AE43-829CB8EF804D" target="_blank" title="Verify Your Euro-Millions.com Account">https://www.euro-millions.com/verify?uid=976799D5-2AAE-4119-AE43-829CB8EF804D</a></strong></p>
+							
+							<p>If you're unable to click the link above, just copy and paste it into your browser's address bar.</p>
+							<p>For easy access to valuable news and information, remember to add us to your email contacts.</p>
+						</td>
+					</tr>
+				
+		<tr>
+			<td>
+				<p>Thanks</p>
+				<p class="signature">EuroMillions Support Team</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<table class="tableFooter" align="center" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td>
+			<p>Material Copyright &copy; 2020 Euro-Millions.com</p>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
+
+

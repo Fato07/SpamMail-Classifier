@@ -1,0 +1,66 @@
+From MAILER-DAEMON Mon Sep 28 07:48:28 2020
+Received: from mailnull by server.tempmailgen.com with local (Exim 4.93)
+	id 1kMntc-0001qp-NA
+	for stephen@wootap.me; Mon, 28 Sep 2020 07:48:28 +0000
+X-Failed-Recipients: b43-dev-request@lists.infradead.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server.tempmailgen.com>
+To: stephen@wootap.me
+References: <PA7arfD7UH2oQprs6ypLHOr1JsKpVBpyLBqxOMoD0s@tempmailgen.com>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1601279308-eximdsn-973156736
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kMntc-0001qp-NA@server.tempmailgen.com>
+Date: Mon, 28 Sep 2020 07:48:28 +0000
+
+--1601279308-eximdsn-973156736
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  b43-dev-request@lists.infradead.org
+    host merlin.infradead.org [205.233.59.134]
+    SMTP error from remote mail server after end of data:
+    550-Mailing lists do not accept HTML mail. See
+    550 http://david.woodhou.se/email.html
+
+--1601279308-eximdsn-973156736
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server.tempmailgen.com
+
+Action: failed
+Final-Recipient: rfc822;b43-dev-request@lists.infradead.org
+Status: 5.0.0
+Remote-MTA: dns; merlin.infradead.org
+Diagnostic-Code: smtp; 550-Mailing lists do not accept HTML mail. See
+ 550 http://david.woodhou.se/email.html
+
+--1601279308-eximdsn-973156736
+Content-type: message/rfc822
+
+Return-path: <stephen@wootap.me>
+Received: from tempmai1 by server.tempmailgen.com with local (Exim 4.93)
+	(envelope-from <stephen@wootap.me>)
+	id 1kMnsv-0001O3-R8
+	for b43-dev-request@lists.infradead.org; Mon, 28 Sep 2020 07:47:45 +0000
+To: "b43-dev-request@lists.infradead.org" <b43-dev-request@lists.infradead.org>
+Subject: =?us-ascii?Q?Re:_confirm_52f30d3c55bc5cdc6cd8ee9ecdd0c8b3730?=  =?us-ascii?Q?19522?=
+X-PHP-Script: tempmailgen.com/inc/list.php for 185.192.69.219, 162.158.158.177
+X-PHP-Originating-Script: 1001:PHPMailer.php
+Date: Mon, 28 Sep 2020 07:47:45 +0000
+From: Temp Mail <stephen@wootap.me>
+Message-ID: <PA7arfD7UH2oQprs6ypLHOr1JsKpVBpyLBqxOMoD0s@tempmailgen.com>
+X-Mailer: PHPMailer 6.1.1 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+
+<p><span style="font-family: Times; font-size: medium;">confirm 52f30d3c55bc5cdc6cd8ee9ecdd0c8b373019522</span><br></p>Mon, 28 Sep 2020 03:34:49 -0400<blockquote style="margin:0px 0px 0px 0.8ex;border-left-width:1px;border-left-style:solid;border-left-color:#ff7070;padding-left:1ex">
+</blockquote>
+
+
+--1601279308-eximdsn-973156736--
+
