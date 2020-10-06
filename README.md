@@ -47,3 +47,6 @@
   ## Improvements 🔗
   - [ ] Implement Machine Learning in classifying mails
   - [ ] Making the Tool Web Based and accessible over the internet
+  
+## Showcase 
+should you have any questions about the code or you wish to see a live demo, please do not hesitate to contact me: https://fato07.github.io/home/
