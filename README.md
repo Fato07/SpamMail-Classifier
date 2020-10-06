@@ -1,4 +1,5 @@
 # SpamMail-Classifier
+### Introduction
 - This Script takes in .eml files as an input and determines if the file is Spam or Not Spam
 - special Thanks to stackOverflow for the hack parsing .eml files with some tweaking and refactorings from my side: https://stackoverflow.com/questions/31392361/how-to-read-eml-file-in-python
 
@@ -43,4 +44,6 @@
   If the e-mail address of the sender is not on the black List of email addresses. Then unfortunately, 
   the program would classify the email as not spam.
   
-  
+  ## Improvements 🔗
+  - [ ] Implement Machine Learning in classifying mails
+  - [ ] Making the Tool Web Based and accessible over the internet
